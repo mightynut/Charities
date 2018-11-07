@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.menu-header{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	z-index: 3;
+}
+#header img{
+	position: fixed;
+	display: block;
+	left: 50%;
+	transform: translate(-50%,0);
+	z-index: 4;
+}
+.f-block{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(#ff6420,#e62a06);
+}
+.f-block li{
+	list-style: none;
+	font-size: 18px;
+    line-height: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 32px;
+    color: #fff;
+}
+.f-block li:hover{
+	cursor: pointer;
+	background: rgba(255,100,32,1);
+}
+
+#title{ /*не нашел фон-картинку в инспекторе*/
+	background: #aeaeae;
+	height: 790px;
+}
+
+.title{
+	margin-top: 280px;
+}
+
+.title h1{
+	font-family: Lora;
+	color: rgb(230, 42, 6);
+	text-align: center;
+	font-weight: 700;
+	font-size: 90px;
+}
+.title h1 span{
+	color: #fff;
+	font-size: 90px;
+}
+.title p{
+	text-align: center;
+	font-family: Lora;
+	font-style: italic;
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 40px;
+	color: #fff;
+}
+.container880{
+	max-width: 1060px;
+}
+.feature-block{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+.feature-item{
+	margin-top: -80px;
+	text-align: center;
+	background: rgba(255,100,32,1);
+}
+.feature-item p{
+	font-size: 15px;
+	color: #fff;
+	font-family: Lora;
+	margin: 0px 0px 10px 0px;
+}
+.feature-item h4{
+	font-family: Lora;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 700;
+}
+.feature-item img{
+	display: block;
+	margin: 10px auto;
+}
+
+#features .feature-item:first-child{
+	background: rgba(230,42,6,1);
+}
+#features .feature-item:last-child{
+	background: rgba(230,42,6,1);
+}
+#about{
+	margin-top: 80px;
+}
+.about{
+	margin: 0 auto;
+	width: 199px;
+}
+.about h2{
+	text-align: center;
+	font-family: Lora;
+	font-weight: 600;
+}
+.about h2 span{
+	font-family: Lora;
+	color: rgb(230, 42, 6);
+}
+.fb-img img{
+	width: 100%;
+}
