@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: Lora;
+	font-family: 'Lora', serif;
 }
 
 .menu-header{
@@ -134,7 +134,7 @@ body{
 }
 .welcome p{
 	font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(102, 102, 102);
@@ -189,7 +189,7 @@ body{
 .help p{
 	margin: 30px 10px;
 	font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(102, 102, 102);
@@ -216,13 +216,13 @@ body{
 }
 .blog-div p{
 	font-size: 16px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: rgb(102, 102, 102);
 }
 .date{
-	font-family: "Open Sans";
+	font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 12px;
