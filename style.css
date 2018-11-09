@@ -228,7 +228,10 @@ body{
     font-size: 12px;
     color: rgb(221, 221, 221);
 }
-
+#causes{
+	background: #e7eeff;
+	padding-top: 40px;
+}
 .causes{
 	display: flex;
 	width: 100%;
