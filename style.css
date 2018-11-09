@@ -238,6 +238,7 @@ body{
 	justify-content: space-between;
 }
 .cause-item{
+	background: #fff;
 	width: 30%;
 	margin-top: 40px;
 }
