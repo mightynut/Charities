@@ -150,7 +150,9 @@ body{
 	border-radius: 0;
 	margin-bottom: 30px;
 }
-
+.w-but10{
+	margin-bottom: 10px;
+}
 #gallery{
 	background: #e7eeff;
 	margin-top: 100px;
@@ -231,6 +233,7 @@ body{
 #causes{
 	background: #e7eeff;
 	padding-top: 40px;
+	padding-bottom: 50px;
 }
 .causes{
 	display: flex;
@@ -243,6 +246,7 @@ body{
 	margin-top: 40px;
 }
 .cause-item h2{
+	padding-left: 20px;
 	margin-top: 20px;
 	font-size: 20px;
 	font-weight: 700;
@@ -251,14 +255,98 @@ body{
 	color: rgba(230,42,6,1);
 }
 .cause-item p{
+	padding-left: 20px;
 	font-size: 15px;
     font-family: "Open Sans";
     font-weight: 400;
     font-style: normal;
     color: rgb(102, 102, 102);
 }
+.cause-item button{
+	margin-left: 20px;
+}
+.cause-item img{
+	width: 100%;
+}
 .donated{
 	height: 8px;
 	background: rgba(230,42,6,1);
 	margin-bottom: 20px;
+}
+#numb{
+	background: #151515cf;
+	padding: 60px 30px;
+}
+.digit{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid rgba(230,42,6,1);
+	font-weight: 700;
+	font-size: 40px;
+	width: 50%;
+	margin: 0 auto;
+}
+.digit span{
+	display: block;
+}
+.numbers{
+	border-right: 1px solid #fff;
+}
+.numbers:last-child{
+	border-right: none;
+}
+.numbers p{
+	color: #fff;
+	font-size: 22px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.orange{
+	color: rgba(255,100,32,1);
+}
+#volunteer{
+	padding-top: 80px;
+}
+.vol{
+	margin-top: 60px;
+}
+.vol-img img{
+	width: 100%;
+}
+.vol-tml{
+	color: #fff;
+	background: rgba(230,42,6,1);
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.vol-tml h3{
+	margin-top: 30px;
+	font-size: 20px;
+    font-family: Lora;
+    font-weight: 700;
+    font-style: normal;
+}
+.vol-tml h4{
+	font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    background-color: rgba(204, 204, 204, 0);
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+}
+.vol-tml p{
+	color: rgb(233, 233, 233);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.soc{
+	display: flex;
+}
+.soc i{
+	margin-right: 10px;s
 }
