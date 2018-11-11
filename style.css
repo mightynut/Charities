@@ -109,7 +109,10 @@ body{
 }
 .about{
 	margin: 0 auto;
-	width: 199px;
+}
+.about img{
+	display: block;
+	margin: 0 auto;
 }
 .about h2{
 	text-align: center;
@@ -349,4 +352,42 @@ body{
 }
 .soc i{
 	margin-right: 10px;s
+}
+#contact{
+	padding-bottom: 40px;
+	background: grey;
+	padding-top: 30px;
+	margin-top: 60px;
+}
+.contact{
+	background: rgba(230,42,6,1);
+	margin: 30px auto;
+}
+.contact p{
+	font-family: Lora;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 20px auto 30px auto;
+    display: block;
+    width: 90%;
+}
+.contact input{
+	margin-bottom: 20px;
+	padding-left: 6px;
+}
+.contact textarea{
+	margin-bottom: 30px;
+}
+.contact input, .contact textarea{
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.contact button{
+	margin-bottom: 40px;
+	display: block;
+	margin-left: 26px;
 }
